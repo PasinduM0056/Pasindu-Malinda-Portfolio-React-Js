@@ -38,7 +38,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "Robert Butcher",
+  name: "Pasindu Malinda",
   info: "Full-stack developer with a flair for graphic design.",
 };
 
