@@ -39,7 +39,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Pasindu Malinda",
-  info: "Full-stack developer with a flair for graphic design.",
+  info: "Full-stack developer with expertise in AWS Cloud, DevOps, and video editing, creating seamless digital experiences",
 };
 
 export const ABOUT = {
