@@ -5,6 +5,10 @@ import {
   FaFacebook,
   FaDiscord,
   FaInstagram,
+  FaJava,
+  FaJs,
+  Fa1,
+  FaIcons,
 } from "react-icons/fa6";
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -139,7 +143,7 @@ export const SKILLS = [
     experience: "1.5+ years",
   },
   {
-    icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
+    icon: <FaJs className="text-4xl lg:text-6xl text-red-600" />,
     name: "Express.js",
     experience: "1+ year",
   },
@@ -149,27 +153,27 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <FaJs className="text-4xl lg:text-6xl text-sky-700" />,
     name: "JavaScript",
     experience: "1+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <FaJava className="text-4xl lg:text-6xl text-sky-700" />,
     name: "Springboot",
     experience: "1+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <FaJava className="text-4xl lg:text-6xl text-sky-700" />,
     name: "Java",
     experience: "1+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <FaGithub className="text-4xl lg:text-6xl text-sky-700" />,
     name: "GitHub",
     experience: "1+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    icon: <FaIcons className="text-4xl lg:text-6xl text-sky-700" />,
     name: "MySql",
     experience: "1+ year",
   },
