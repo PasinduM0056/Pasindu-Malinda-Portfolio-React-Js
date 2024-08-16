@@ -39,61 +39,64 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Pasindu Malinda",
-  info: "Full-stack developer with expertise in AWS Cloud, DevOps, and video editing, creating seamless digital experiences",
+  info: "Full-Stack Developer | AWS Cloud Specialist | DevOps Enthusiast | Video Editing Aficionado",
 };
 
 export const ABOUT = {
   text1:
-    "I create dynamic, responsive websites that blend creativity with efficiency",
+    "I craft dynamic, responsive applications that seamlessly blend innovation with efficiency",
   text2:
-    "Hello! I'm Robert Butcher, a full-stack developer with a flair for graphic design. I thrive on crafting web experiences that are not only visually stunning but also highly functional and user-friendly. My passion for detail ensures that every project is polished and professional. Beyond coding, I'm an avid explorer of new cultures and cuisines. My curiosity drives me to stay on the cutting edge of technology and design trends, bringing innovative and practical solutions to every challenge. Whether I'm developing a sleek website or diving into the latest tech, I am dedicated to delivering excellence in every project.",
+    "Hello! I'm Pasindu Malinda Ghanarathna, a full-stack developer with a passion for AWS Cloud, DevOps, and video editing. I specialize in building scalable, robust applications that not only perform well but also deliver a polished user experience. My dedication to continuous learning keeps me at the forefront of emerging technologies, enabling me to create practical and cutting-edge solutions. Outside of development, I channel my creativity into video editing, where I combine technical precision with artistic vision. Whether I'm coding a complex application or refining a video project, my commitment to excellence drives every endeavor.",
 };
 
 export const PROJECTS = [
   {
     title: "E-commerce Platform",
-    subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
+    subtitle: "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
     image: image1,
+    category: "Web Development",
   },
   {
     title: "Social Media App",
-    subtitle:
-      "A social media application developed using Next.js and Firebase.",
+    subtitle: "A social media application developed using Next.js and Firebase.",
     image: image2,
+    category: "Web Development",
   },
   {
     title: "Project Management Tool",
     subtitle: "A project management tool built with Django and PostgreSQL.",
     image: image3,
+    category: "Web Development",
   },
   {
     title: "Personal Portfolio",
-    subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
+    subtitle: "A personal portfolio website designed with HTML, CSS, and JavaScript.",
     image: image4,
+    category: "Web Development",
   },
   {
     title: "Weather Dashboard",
-    subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
+    subtitle: "A weather dashboard application built with Vue.js and Express.js.",
     image: image5,
+    category: "Cloud",
   },
   {
     title: "Blog Platform",
-    subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
+    subtitle: "A blogging platform developed with Ruby on Rails and PostgreSQL.",
     image: image6,
+    category: "Cloud",
   },
   {
     title: "Fitness Tracker",
     subtitle: "A fitness tracking app created using Flutter and Firebase.",
     image: image7,
+    category: "DevOps",
   },
   {
     title: "Recipe Finder",
     subtitle: "A recipe finder application developed with Angular and Node.js.",
     image: image8,
+    category: "Video Editing",
   },
 ];
 
