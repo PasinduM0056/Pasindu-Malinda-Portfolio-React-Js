@@ -8,20 +8,23 @@ import {
 } from "react-icons/fa6";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
-import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
+import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png";
+import image4 from "../assets/image4.png";
+import image5 from "../assets/image5.png";
+import image6 from "../assets/image6.png";
+import image7 from "../assets/image7.png";
+import image8 from "../assets/image8.png";
+import image9 from "../assets/image9.png";
+import image10 from "../assets/image10.png";
+import image11 from "../assets/image11.png";
+import image12 from "../assets/image12.png";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -51,51 +54,75 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
-    subtitle: "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
+    title: "E Net Education Online Examination System (OOP Project)",
+    subtitle: "MVC-Architecture | Java | MySQL",
     image: image1,
     category: "Web Development",
   },
   {
-    title: "Social Media App",
-    subtitle: "A social media application developed using Next.js and Firebase.",
+    title: "Restaurant Management System (IWT Project)",
+    subtitle: "HTML | CSS | JavaScript | PHP ",
     image: image2,
     category: "Web Development",
   },
   {
-    title: "Project Management Tool",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
+    title: "SoulLift Social Media App (ITPM Project)",
+    subtitle: "MongoDB | Express.js | React.js | Node.js | Chakra UI",
     image: image3,
     category: "Web Development",
   },
   {
-    title: "Personal Portfolio",
-    subtitle: "A personal portfolio website designed with HTML, CSS, and JavaScript.",
+    title: "Food Market Management System (ITP Project)",
+    subtitle: "MongoDB | Express js | React js | Node js | Bootstrap",
     image: image4,
     category: "Web Development",
   },
   {
-    title: "Weather Dashboard",
-    subtitle: "A weather dashboard application built with Vue.js and Express.js.",
+    title: "Fitness Social Media Web Application (PAF Project)",
+    subtitle: "Spring boot, React.js, Tailwind CSS",
     image: image5,
-    category: "Cloud",
+    category: "Web Development",
   },
   {
-    title: "Blog Platform",
-    subtitle: "A blogging platform developed with Ruby on Rails and PostgreSQL.",
+    title: "GitHub Docker and Jenkins CI/CD Pipeline (Non Academic)",
+    subtitle: "GitHub | Docker | Jenkins",
     image: image6,
-    category: "Cloud",
+    category: "DevOps",
   },
   {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
+    title: "Chat Application with DNS Integration (NDM Project)",
+    subtitle: "Socket Programming | Networking | Concurrent Programming | Network Programming | DNS Management | Linux System Administration",
     image: image7,
     category: "DevOps",
   },
   {
-    title: "Recipe Finder",
-    subtitle: "A recipe finder application developed with Angular and Node.js.",
+    title: "Pasindu Malinda Portfolio React Js (Non Academic)",
+    subtitle: "React Js | Tailwind CSS | Framer Motion",
     image: image8,
+    category: "Web Development",
+  },
+  {
+    title: "MERN Stack Real State Website (Non Academic)",
+    subtitle: "MongoDB | Express.js | React.js | Node.js | Tailwind CSS",
+    image: image9,
+    category: "Web Development",
+  },
+  {
+    title: "Nodejs-Reactjs-ChatApp (Non Academic)",
+    subtitle: "React.js | Node.js ",
+    image: image10,
+    category: "Web Development",
+  },
+  {
+    title: "Location Crud App (Non Academic)",
+    subtitle: "MongoDB | Express.js | React.js | Node.js | Tailwind CSS",
+    image: image11,
+    category: "Web Development",
+  },
+  {
+    title: "My Sample Vedio Editing Projects (Vedio Editing)",
+    subtitle: "Adobe After Effect | Adobe Premiere Pro  | Filmora ",
+    image: image12,
     category: "Video Editing",
   },
 ];
@@ -103,13 +130,8 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
-    name: "React",
+    name: "React.js",
     experience: "2+ years",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl lg:text-6xl text-white" />,
-    name: "Next.js",
-    experience: "1+ year",
   },
   {
     icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
@@ -118,7 +140,7 @@ export const SKILLS = [
   },
   {
     icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
-    name: "Redis",
+    name: "Express.js",
     experience: "1+ year",
   },
   {
@@ -128,16 +150,36 @@ export const SKILLS = [
   },
   {
     icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
-    name: "PostgreSQL",
+    name: "JavaScript",
+    experience: "1+ year",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    name: "Springboot",
+    experience: "1+ year",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    name: "Java",
+    experience: "1+ year",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    name: "GitHub",
+    experience: "1+ year",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
+    name: "MySql",
     experience: "1+ year",
   },
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
+  title: "Kickstart Your Cloud Journey with Free AWS Resources",
+  award: "AWS",
   description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
+    "In today's digital era, cloud computing is a vital skill powering everything from simple apps to complex enterprise solutions. Amazon Web Services (AWS) stands out as a leading cloud platform, offering a wide range of tools for both beginners and experts. Whether you're new to cloud computing or eager to learn more, AWS provides excellent free resources to kickstart your journey. In this blog post, we'll explore these resources and how you can maximize their benefits.",
 };
 
 export const TESTIMONIALS = [
