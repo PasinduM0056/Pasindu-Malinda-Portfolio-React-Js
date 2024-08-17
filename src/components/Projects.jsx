@@ -25,8 +25,8 @@ const Projects = () => {
     : PROJECTS.filter(project => project.category === selectedCategory);
 
   return (
-    <div id='projects'>
-      <motion.h2 className='mt-20 text-center text-4xl font-semibold'
+    <div id='projects' className='px-4 md:px-8 lg:px-16'>
+      <motion.h2 className='mt-20 text-center text-3xl md:text-4xl font-semibold'
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true }}>
@@ -34,11 +34,13 @@ const Projects = () => {
       </motion.h2>
       
       {/* Category Buttons */}
-      <div className='flex justify-center mt-8'>
+      <div className='flex flex-wrap justify-center mt-8'>
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 m-2 text-sm cursor-pointer ${selectedCategory === category ? 'text-yellow-400' : 'text-gray-400'}`}
+            className={`px-3 py-2 m-2 text-xs md:text-sm cursor-pointer rounded-lg transition-all ${
+              selectedCategory === category ? 'text-yellow-400' : 'text-gray-400'
+            } hover:text-yellow-400`}
             onClick={() => setSelectedCategory(category)}>
             {category}
           </button>
@@ -53,6 +55,7 @@ const Projects = () => {
             initial='hidden'
             animate='visible'
             variants={itemVariants}
+            className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'
           >
             <Card 
               image={project.image} 
