@@ -45,7 +45,11 @@ const AchievementShowcase = () => {
         <motion.div className='w-full p-4 text-center sm:w-1/2'
                     variants={itemVariants}>
           <h2 className='mb-4 text-3xl'>{ACHIEVEMENT.title}</h2>
-          <span className='mt-4 border-b border-yellow-400 py-2 text-sm uppercase text-yellow-400'>{ACHIEVEMENT.award}</span>
+          <a href="https://medium.com/@malindafiv56/kickstart-your-cloud-journey-with-free-aws-resources-0dbed0571f2b" target="_blank" rel="noopener noreferrer">
+            <span className='mt-4 border-b border-gray-400 py-2 text-sm text-gray-400 hover:text-yellow-400 hover:border-yellow-400'>
+              {ACHIEVEMENT.award}
+            </span>
+          </a>
           <p className='m-4 p-2 italic'>{ACHIEVEMENT.description}</p>
         </motion.div>
       </motion.div>

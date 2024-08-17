@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card = ({ image, title, subtitle, link}) => {
+const Card = ({ image, title, subtitle, link }) => {
   return (
-    <a href={link} className='m-4 block max-w-sm overflow-hidden rounded-lg'>
+    <a href={link} className='m-4 block max-w-sm overflow-hidden rounded-lg' target="_blank" rel="noopener noreferrer">
         <div className='relative'>
             <img className='w-full' src={image} alt={title} />
             <div className='flex flex-col justify-between p-4 text-white'>
@@ -11,7 +11,7 @@ const Card = ({ image, title, subtitle, link}) => {
             </div>
         </div>
     </a>
-  )
-}
+  );
+};
 
 export default Card
