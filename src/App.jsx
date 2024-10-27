@@ -5,7 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import AchievementShowcase from './components/AchievementShowcase'
-import Testimonials from './components/Testimonials'
+// import Testimonials from './components/Testimonials'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 
@@ -18,7 +18,7 @@ const App = () => {
       <Projects />
       <Skills />
       <AchievementShowcase />
-      <Testimonials />
+{/*       <Testimonials /> */}
       <ContactForm />
       <Footer />
     </main>
